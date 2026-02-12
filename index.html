@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo 앱 - 매일 해야 할 일</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📝 Todo 앱</h1>
+            <p class="subtitle">매일 해야 할 일을 기록하세요</p>
+        </header>
+
+        <div class="todo-form">
+            <input 
+                type="text" 
+                id="todo-input" 
+                class="todo-input" 
+                placeholder="할 일을 입력하세요..."
+            >
+            <button id="add-button" class="add-button">추가</button>
+        </div>
+
+        <div class="todo-sections">
+            <div class="todo-section">
+                <h2 class="section-title">예정</h2>
+                <ul id="pending-list" class="todo-list"></ul>
+                <div id="pending-empty" class="empty-state hidden">
+                    <p>예정된 할 일이 없습니다 ✨</p>
+                </div>
+            </div>
+
+            <div class="todo-section">
+                <h2 class="section-title">완료</h2>
+                <ul id="completed-list" class="todo-list"></ul>
+                <div id="completed-empty" class="empty-state hidden">
+                    <p>완료된 할 일이 없습니다</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
