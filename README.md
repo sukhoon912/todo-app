@@ -26,3 +26,6 @@
 - HTML5
 - CSS3
 - 바닐라 JavaScript (Vanilla JS)
+
+## 배포
+GitHub Pages로 배포 (링크 :  https://sukhoon912.github.io/todo-app/)
