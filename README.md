@@ -19,13 +19,12 @@
 
 ## 실행 방법
 
-`index.html` 파일을 브라우저에서 직접 열면 됩니다. 별도의 서버나 빌드 과정이 필요하지 않습니다.
-
+`index.html` 파일을 브라우저에서 직접 열면 됩니다.
 ## 기술 스택
 
-- HTML5
-- CSS3
-- 바닐라 JavaScript (Vanilla JS)
+- HTML
+- CSS
+- JavaScript 
 
 ## 배포
 GitHub Pages로 배포 (링크 :  https://sukhoon912.github.io/todo-app/)
